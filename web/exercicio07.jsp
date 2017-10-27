@@ -20,6 +20,7 @@
                 </select>
                 <br>
                 <input type="submit" name="acao" value="Calcular" />
+                <a href="home.jsp"><input type="button" value="Voltar"></a>
             </form>
             <%
             String resultado = (String) request.getAttribute("resultado");

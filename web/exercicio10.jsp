@@ -21,6 +21,7 @@
                 <input type="text" name="nota2" placeholder="Nota 02" onkeypress="return SomenteNumero(event)" onblur="valorMaximo(this);" required /><br>
                 <input type="text" name="nota3" placeholder="Nota 03" onkeypress="return SomenteNumero(event)" onblur="valorMaximo(this);" required /><br>
                 <input type="submit" name="acao" value="Calcular" />
+                <a href="home.jsp"><input type="button" value="Voltar"></a>
             </form>
             <%
             String mensagem = (String) request.getAttribute("mensagem");

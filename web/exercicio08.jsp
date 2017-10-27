@@ -11,6 +11,7 @@
             <form action="GerenciaExercicio08" method="post">
                 <input type="text" name="valor" placeholder="Valor Devido" onkeypress="return SomenteNumeroPonto(event);" required /><br>
                 <input type="submit" name="acao" value="Calcular" />
+                <a href="home.jsp"><input type="button" value="Voltar"></a>
             </form>
         </div>
         <br>

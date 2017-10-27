@@ -12,6 +12,7 @@
                 Data de nascimento: 
                 <input type="date" name="data" /><br>
                 <input type="submit" name="acao" value="Calcular" />
+                <a href="home.jsp"><input type="button" value="Voltar"></a>
             </form>
             <br>
             <%

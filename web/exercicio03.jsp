@@ -13,7 +13,8 @@
                 <input type="text" name="numero1" placeholder="Numero 01" onkeypress="return SomenteNumero(event)"/><br>
                 <input type="text" name="numero2" placeholder="Numero 02" onkeypress="return SomenteNumero(event)"/><br>
                 <input type="text" name="numero3" placeholder="Numero 03" onkeypress="return SomenteNumero(event)"/><br>
-                <input type="submit" name="acao" value="Executar"/><br>
+                <input type="submit" name="acao" value="Executar"/>
+                <a href="home.jsp"><input type="button" value="Voltar"></a>
             </form>
             <%
             String primeiro = (String) request.getAttribute("primeiro");

@@ -33,6 +33,7 @@
                 Tabuada de 1 a 10:<br>
                 <input type="text" name="numero" placeholder="Numero" required onkeypress="return SomenteNumeroPositivo(event);" onblur="numero1A10(this);" />
                 <input type="submit" name="acao" value="Calcular" />
+                <a href="home.jsp"><input type="button" value="Voltar"></a>
             </form>
             Resposta:<br>
             <% 

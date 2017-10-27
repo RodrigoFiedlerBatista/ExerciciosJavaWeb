@@ -26,6 +26,7 @@
                 Mostrar números de 1 até o valor inserido:<br>
                 <input type="text" name="numero" placeholder="Numero" onkeypress="return SomenteNumeroPositivo(event);" required /><br>
                 <input type="submit" value="Calcular" name="acao" />
+                <a href="home.jsp"><input type="button" value="Voltar"></a>
             </form>
             Números:<br>
             <% 

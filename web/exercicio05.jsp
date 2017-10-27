@@ -15,7 +15,8 @@
                 <input type="text" name="nota2" placeholder="Nota 02" onkeypress="return SomenteNumeroPonto(event)" required /><br>
                 <input type="text" name="nota3" placeholder="Nota 03" onkeypress="return SomenteNumeroPonto(event)" required /><br>
                 <input type="text" name="nota4" placeholder="Nota 04" onkeypress="return SomenteNumeroPonto(event)" required/><br>
-                <input type="submit" name="acao" value="Executar"/><br>
+                <input type="submit" name="acao" value="Executar"/>
+                <a href="home.jsp"><input type="button" value="Voltar"></a>
             </form>
             <%
             String nome = (String) request.getAttribute("nome");

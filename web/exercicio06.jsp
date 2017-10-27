@@ -25,6 +25,7 @@
             <input type="text" name="qtd_bebida" placeholder="Quantidade" onkeypress="return SomenteNumero(event)" required />
             <br>
             <input type="submit" value="Calcular" name="acao" />
+            <a href="home.jsp"><input type="button" value="Voltar"></a>
         </form>
         <%
         String total = (String) request.getAttribute("total");

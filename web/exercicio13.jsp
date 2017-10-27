@@ -28,6 +28,7 @@
                 <input type="text" placeholder="Numero 4" name="numero4" onkeypress="return SomenteNumero(event);" required /><br>
                 <input type="text" placeholder="Numero 5" name="numero5" onkeypress="return SomenteNumero(event);" required /><br>
                 <input type="submit" value="Calcular" name="acao" />
+                <a href="home.jsp"><input type="button" value="Voltar"></a>
             </form>
             Média: 
             <%

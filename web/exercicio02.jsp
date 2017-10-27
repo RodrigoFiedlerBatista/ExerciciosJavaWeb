@@ -14,6 +14,7 @@
                 <input type="text" placeholder="Número 2" name="numero2" onkeypress="return SomenteNumero(event);"><br>
                 <input type="text" placeholder="Número 3" name="numero3" onkeypress="return SomenteNumero(event);"><br>
                 <input type="submit" value="Menor Numero" name="acao">
+                <a href="home.jsp"><input type="button" value="Voltar"></a>
             </form>
             <% String menor = (String) request.getAttribute("menor");
             if (menor == null) {
